@@ -44,7 +44,10 @@ export function createAmplifyHosting(
 						}),
 						new PolicyStatement({
 							effect: Effect.ALLOW,
-							actions: ['appsync:GetIntrospectionSchema'],
+							actions: [
+								'appsync:GetIntrospectionSchema',
+								'appsync:GetGraphqlApi',
+							],
 							resources: [`*`],
 						}),
 					],
