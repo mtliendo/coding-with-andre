@@ -32,6 +32,7 @@ export function createAmplifyHosting(
 			description: `Role assumed by Amplify Hosting for deploying aws cdk`,
 			roleName: `${props.appName}-amplify-deploy-from-cdk`,
 			maxSessionDuration: Duration.hours(1),
+
 			inlinePolicies: {
 				CdkDeploymentPolicy: new PolicyDocument({
 					assignSids: true,

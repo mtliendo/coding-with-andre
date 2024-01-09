@@ -82,9 +82,9 @@ export const createAmplifyGraphQLAPI = (
 		}
 	)
 
-	api.addResolver('Mutation.createTextractExpense', {
+	api.addResolver('Mutation.createTextractPhotoId', {
 		typeName: 'Mutation',
-		fieldName: 'createTextractExpense',
+		fieldName: 'createTextractPhotoId',
 		runtime: FunctionRuntime.JS_1_0_0,
 		pipelineConfig: [textractFunction, saveTextractDetailsFunction],
 		code: Code.fromInline(`

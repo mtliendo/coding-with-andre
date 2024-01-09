@@ -1,0 +1,17 @@
+{
+  "fullstack-nextjs-cdk-starter-prod-Stack": {
+    "awsAppsyncApiEndpoint": "https://7dgghrdqnjf6rbpmxavpfbocpu.appsync-api.us-east-1.amazonaws.com/graphql",
+    "awsAppsyncApiId": "szouyehumzhapb7hclaxma7nxu",
+    "amplifyApiModelSchemaS3Uri": "s3://fullstack-nextjs-cdk-star-fullstacknextjscdkstarte-vvgtmvka7xfb/model-schema.graphql",
+    "GraphQLAPIURL": "https://7dgghrdqnjf6rbpmxavpfbocpu.appsync-api.us-east-1.amazonaws.com/graphql",
+    "awsAppsyncAdditionalAuthenticationTypes": "AWS_IAM",
+    "awsAppsyncRegion": "us-east-1",
+    "GraphQLAPIID": "szouyehumzhapb7hclaxma7nxu",
+    "UserPoolClientId": "1ilrlafd14j01ptl3heq3hrhkg",
+    "awsAppsyncAuthenticationType": "AMAZON_COGNITO_USER_POOLS",
+    "UserPoolId": "us-east-1_5SK8y161g",
+    "Region": "us-east-1",
+    "IdentityPoolId": "us-east-1:b5a4faa9-3b5f-4d07-b221-f6d7afbc93c2",
+    "AmplifyAppId": "d2fit811x785xj"
+  }
+}
