@@ -9,7 +9,7 @@
 		"watch": "tsc -w",
 		"test": "jest",
 		"cdk": "cdk",
-		"codegen": "npx @aws-amplify/cli codegen"
+		"codegen": "cd lib/api && npx @aws-amplify/cli codegen && cd ../.."
 	},
 	"devDependencies": {
 		"@types/git-branch": "^2.0.5",

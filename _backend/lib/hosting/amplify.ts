@@ -75,9 +75,7 @@ export function createAmplifyHosting(
 						commands: [
 							'cd _backend', //the buildspec file gets ran from in root of our project
 							'npm ci',
-							'cd lib/api', //install the cdk deps
 							'npm run codegen',
-							'cd ../..', //go back to the root of the project
 							'npm run build:resolvers', //see package.json
 							'npx aws-cdk deploy --require-approval never --outputs-file ../output.json', // deploy cdk (see package.json)
 							'cd ..', // go back to the root of the project
