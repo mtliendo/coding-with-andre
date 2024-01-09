@@ -1,17 +1,17 @@
 {
-  "coding-with-andre-prod-Stack": {
-    "awsAppsyncApiEndpoint": "https://egcywvkob5bzfk334do42wbwx4.appsync-api.us-east-1.amazonaws.com/graphql",
-    "awsAppsyncApiId": "dyx5szu4lzdsnc5agyts33hh4e",
-    "amplifyApiModelSchemaS3Uri": "s3://coding-with-andre-prod-st-codingwithandreamplifyco-fgyezh7efhh2/model-schema.graphql",
-    "GraphQLAPIURL": "https://egcywvkob5bzfk334do42wbwx4.appsync-api.us-east-1.amazonaws.com/graphql",
-    "awsAppsyncAdditionalAuthenticationTypes": "AWS_IAM",
-    "awsAppsyncRegion": "us-east-1",
-    "GraphQLAPIID": "dyx5szu4lzdsnc5agyts33hh4e",
-    "UserPoolClientId": "6481dlpsfdeavhfn143bodbfgd",
-    "awsAppsyncAuthenticationType": "AMAZON_COGNITO_USER_POOLS",
-    "UserPoolId": "us-east-1_B0a8Kdigc",
-    "Region": "us-east-1",
-    "IdentityPoolId": "us-east-1:79112ae5-ec87-46a0-85d7-8d2688af613a",
-    "AmplifyAppId": "d2uqevcwgyrj0u"
-  }
+	"coding-with-andre-prod-Stack": {
+		"awsAppsyncApiEndpoint": "https://egcywvkob5bzfk334do42wbwx4.appsync-api.us-east-1.amazonaws.com/graphql",
+		"awsAppsyncApiId": "dyx5szu4lzdsnc5agyts33hh4e",
+		"amplifyApiModelSchemaS3Uri": "s3://coding-with-andre-prod-st-codingwithandreamplifyco-fgyezh7efhh2/model-schema.graphql",
+		"GraphQLAPIURL": "https://egcywvkob5bzfk334do42wbwx4.appsync-api.us-east-1.amazonaws.com/graphql",
+		"awsAppsyncAdditionalAuthenticationTypes": "AWS_IAM",
+		"awsAppsyncRegion": "us-east-1",
+		"GraphQLAPIID": "dyx5szu4lzdsnc5agyts33hh4e",
+		"UserPoolClientId": "6481dlpsfdeavhfn143bodbfgd",
+		"awsAppsyncAuthenticationType": "AMAZON_COGNITO_USER_POOLS",
+		"UserPoolId": "us-east-1_B0a8Kdigc",
+		"Region": "us-east-1",
+		"IdentityPoolId": "us-east-1:79112ae5-ec87-46a0-85d7-8d2688af613a",
+		"AmplifyAppId": "d2uqevcwgyrj0u"
+	}
 }
