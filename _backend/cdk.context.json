@@ -1,6 +1,6 @@
 {
 	"globals": {
-		"appName": "fullstack-nextjs-cdk-starter",
+		"appName": "coding-with-andre",
 		"hosting": {
 			"ghTokenName": "github-token",
 			"ghOwner": "mtliendo",
