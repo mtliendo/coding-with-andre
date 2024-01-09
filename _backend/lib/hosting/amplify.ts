@@ -73,7 +73,7 @@ export function createAmplifyHosting(
 				phases: {
 					preBuild: {
 						commands: [
-							'cd _backend', //the buildspec file gets ran from the root of our project
+							'cd _backend', //the buildspec file gets ran from in root of our project
 							'npm ci',
 							'cd lib/api', //install the cdk deps
 							'npm run codegen',
