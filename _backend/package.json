@@ -9,7 +9,12 @@
 		"watch": "tsc -w",
 		"test": "jest",
 		"cdk": "cdk",
-		"codegen": "cd lib/api && npx @aws-amplify/cli codegen && cd ../.."
+		"codegen": "cd lib/api && npx @aws-amplify/cli codegen && cd ../..",
+		"build:resolvers": "node utils/build.mjs",
+		"predeploy": "npm run codegen && npm run build:resolvers",
+		"deploy": "npx aws-cdk deploy",
+		"predeploy:local": "npm run codegen && npm run build:resolvers",
+		"deploy:local": "npx aws-cdk deploy --profile focus-otter-sandbox --outputs-file output.json"
 	},
 	"devDependencies": {
 		"@types/git-branch": "^2.0.5",

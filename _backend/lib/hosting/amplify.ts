@@ -76,9 +76,9 @@ export function createAmplifyHosting(
 				phases: {
 					preBuild: {
 						commands: [
-							'cd _backend', //the buildspec file gets ran from in root of our project
-							'npm ci',
-							'npm run codegen',
+							'cd _backend', //the buildspec file gets ran from the root of our project
+							'npm ci', //install the cdk deps
+							'npm run codegen', //see package.json
 							'npm run build:resolvers', //see package.json
 							'npx aws-cdk deploy --require-approval never --outputs-file ../output.json', // deploy cdk (see package.json)
 							'cd ..', // go back to the root of the project
