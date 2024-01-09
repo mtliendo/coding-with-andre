@@ -1,7 +1,7 @@
 /* eslint-disable */
 import { build } from 'esbuild'
 import { glob } from 'glob'
-const files = await glob('lib/api/TS_functions/**/*.ts')
+const files = await glob('lib/api/TS_Functions/**/*.ts')
 console.log(files)
 
 await build({
@@ -11,7 +11,7 @@ await build({
 	target: 'esnext',
 	platform: 'node',
 	external: ['@aws-appsync/utils'],
-	outdir: 'lib/api/JS_functions',
+	outdir: 'lib/api/JS_Functions',
 	entryPoints: files,
 	bundle: true,
 })

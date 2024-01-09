@@ -62,7 +62,7 @@ export const createAmplifyGraphQLAPI = (
 
 	const expenseTableDS = api.addDynamoDbDataSource(
 		'textractExpenseTableDS',
-		api.resources.tables['Expense']
+		api.resources.tables['PhotoID']
 	)
 
 	const textractFunction = api.addFunction('textractFunction', {

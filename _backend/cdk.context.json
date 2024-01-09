@@ -3,8 +3,8 @@
 		"appName": "fullstack-nextjs-cdk-starter",
 		"hosting": {
 			"ghTokenName": "github-token",
-			"ghOwner": "focusOtter",
-			"repo": "fullstack-nextjs-cdk-starter"
+			"ghOwner": "mtliendo",
+			"repo": "coding-with-andre"
 		}
 	},
 	"main": {
