@@ -1,0 +1,23 @@
+type PhotoID
+	@model
+	@auth(rules: [{ allow: owner }, { allow: groups, groups: ["Admin"] }]) {
+	id: ID!
+	firstName: String!
+	lastName: String!
+	middleName: String
+	suffix: String
+	address: String!
+	city: String!
+	zip: String!
+	state: String!
+	docNumber: String!
+	dateOfExp: String!
+	idType: String
+	dateOfBirth: String!
+	dateOfIssue: String!
+	photoIdS3Key: String!
+}
+
+type Mutation {
+	createTextractPhotoId(photoIdS3Key: String!): PhotoID! @aws_cognito_user_pools
+}
